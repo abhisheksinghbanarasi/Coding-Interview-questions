@@ -35,7 +35,7 @@ void printPathsRecur(struct node* node, int path[], int pathLen)
   pathLen++;
  
   /* it's a leaf, so print the path that led to here  */
-  if (node->left==NULL && node->right==NULL) 
+  if (node->left==NULL && node->right==NULL)
   {
     printArray(path, pathLen);
   }
